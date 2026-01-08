@@ -21,7 +21,7 @@ RSI_BUY = 30
 RSI_SELL = 70
 
 # ================== INIT ==================
-exchange = ccxt.binance()
+exchange = ccxt.bybit()
 last_signal = {}
 
 # ================== TELEGRAM ==================
